@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather|Open+Sans:400,800&display=swap');
+
+html {
+  background-color: #EDEEEC;
+}
+
+h1 {
+  color: #63595B;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h2 {
+  font-weight: lighter;
+  color: #585556;
+  font-family: 'Open Sans', sans-serif
+}
+
+p {
+  padding: 16px;
+  color: #A19B9C;
+  font-size: 18px;
+  font-family: 'Merriweather', serif;
+}
+
+a {
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+  font: 16px;
+  font-weight: 600;
+  color : #397C40;
+}
+
+a:hover {
+  color: #152F18;
+}
+
+.container {
+  width: 700;
+  text-align: center;
+  margin: 40px auto;
+}
+
+.card {
+  background-color: #F6F6F5;
+  margin: 40px auto;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.2)
+}
+
+.footer {
+  background-color: #F6F6F5;
+  margin: 40px auto;
+  /*padding: 5px;*/
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.2)
+}
+
+.img-circle {
+  width: 150px;
+  border-radius: 50%;
+  border: 3px solid #63595B;
+  /*box-shadow: 3px 3px 2px rgba(0,0,0,0.6);*/
+}
+
+.red-button {
+  border-radius: 4px;
+  padding: 12px 24px;
+  color: #F6F6F5;
+  background-color: #EF174D;
+}
+
+.red-button:hover {
+  background-color: #420715;
+  color: #F6F6F5;
+}
+
+li {
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px;
+}
+
+ul {
+  padding: 17px 0;
+}
+
+.icon {
+  color: #420715;
+  font-size: 32px;
+}
+
+.icon:hover {
+  color: #EF174D;
+}
+
+.icon-wagon {
+  position: absolute;
+  top: -9px;
+  /*padding-top: 50px;*/
+  width: 33;
+}
+
+.godfather {
+  position: relative;
+}
+
+/*Relative movement*/
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
