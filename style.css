@@ -19,7 +19,7 @@ p {
   padding: 16px;
   color: #A19B9C;
   font-size: 18px;
-  font-family: 'Merriweather', serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 a {
@@ -37,7 +37,7 @@ a:hover {
 .container {
   width: 700;
   text-align: center;
-  margin: 40px auto;
+  margin: 20px auto;
 }
 
 .card {
@@ -101,6 +101,48 @@ ul {
 
 .godfather {
   position: relative;
+}
+
+.fa-spotify {
+  color: #63D471;
+  font-size: 50px;
+}
+
+#id {
+  text-align: left;
+}
+
+.icon-wagon-circle {
+  position: absolute;
+  top: -9px;
+  /*padding-top: 50px;*/
+  width: 33;
+  border-radius: 50%;
+}
+
+.spotify {
+  padding: 20px;
+  text-align: left;
+  padding-bottom: 0px;
+}
+
+.spotify-playlist {
+  font-family: 'Merriweather', serif;
+}
+
+.fa-user-circle {
+  font-size: 50px;
+  color: #EF174D;
+}
+
+.fa-user-circle:hover {
+  color: #420715;
+}
+
+.bio {
+  padding: 20px;
+  text-align: left;
+  padding-bottom: 0px;
 }
 
 /*Relative movement*/
